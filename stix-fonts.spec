@@ -11,7 +11,7 @@ creation through final publication, both in electronic and print formats.
 
 Name:    %{fontname}-fonts
 Version: 1.1.0
-Release: 4%{?dist}
+Release: 5%{?dist}
 Summary: Scientific and engineering fonts
 
 Group:   User Interface/X
@@ -90,6 +90,9 @@ rm -fr %{buildroot}
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1.0-5
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.1.0-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
